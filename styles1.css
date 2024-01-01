@@ -1,0 +1,171 @@
+/* Add this CSS at the end of your existing styles.css file */
+
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+#header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-text {
+    text-align: left;
+    padding: 20px;
+}
+
+.header_content {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.column-1,
+.column-2 {
+    width: 100%;
+}
+
+/* Projects Section */
+.project {
+    padding: 50px 0;
+}
+
+.collapsible-container {
+    margin-bottom: 20px;
+}
+
+.project_left,
+.project_right {
+    width: 100%;
+    text-align: center;
+}
+
+.project_right p {
+    text-align: left;
+}
+
+#photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.photo {
+    margin: 0 10px;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Certificates Section */
+.certificate {
+    padding: 50px 0;
+}
+
+.certificate_documents {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.certificate_documents img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 0;
+}
+
+.display_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact_left {
+    flex: 1;
+}
+
+.form-container {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-submit-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
